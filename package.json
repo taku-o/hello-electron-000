@@ -5,7 +5,7 @@
   "main": "electron.js",
   "scripts": {
     "app": "electron .",
-    "package": "electron-packager . hello-electron-000 --platform=darwin --arch=x64 --electronVersion=2.0.8 --overwrite --asar"
+    "package": "electron-packager . hello-electron-000 --platform=darwin --arch=x64 --electronVersion=2.0.8 --overwrite --asar.unpackDir=unpack"
   },
   "keywords": [],
   "homepage": "https://github.com/taku-o/hello-electron-000",
